@@ -8,7 +8,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:zxing_lib/zxing.dart';
 
-import '../models/utils.dart';
+import '../home/models/utils.dart';
 import 'binarizer.dart';
 import 'camera.dart';
 import 'result.dart';

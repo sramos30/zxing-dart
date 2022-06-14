@@ -30,7 +30,7 @@ class _TextFormState extends State<TextForm> {
     return ListTileGroup(
       children: [
         const CupertinoListTile(
-          title: Text('文本内容'),
+          title: Text('text content'),
         ),
         CupertinoTextField(
           maxLines: 5,

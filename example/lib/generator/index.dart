@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:zxing_lib/client.dart';
 import 'package:zxing_lib/qrcode.dart';
 
-import '../models/qrcode_style.dart';
-import '../models/result_generator.dart';
+import '../home/models/qrcode_style.dart';
+import '../home/models/result_generator.dart';
 import '../widgets/cupertino_list_tile.dart';
 import '../widgets/list_tile_group.dart';
 import '../widgets/type_picker.dart';
@@ -185,7 +185,7 @@ class _IndexPageState extends State<IndexPage> {
               ListTileGroup(
                 children: [
                   CupertinoListTile(
-                    title: const Text('内容类型'),
+                    title: const Text('content-type'),
                     onTap: () {
                       setResult();
                     },
@@ -193,7 +193,7 @@ class _IndexPageState extends State<IndexPage> {
                   ),
                   CupertinoListTile(
                     onTap: setStyle,
-                    title: const Text('二维码样式'),
+                    title: const Text('QR code Style'),
                     trailing: Text(style.name),
                     isLink: true,
                   ),

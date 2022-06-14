@@ -7,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:shirne_dialog/shirne_dialog.dart';
 
-import '../models/utils.dart';
+import '../home/models/utils.dart';
 import '../widgets/cupertino_icon_button.dart';
 
 class CameraPage extends StatefulWidget {

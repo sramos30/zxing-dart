@@ -50,7 +50,7 @@ Future<T?>? pickerType<T>(BuildContext context, List<T> values, T value) {
             child: Column(
               children: [
                 const Text(
-                  '请选择',
+                  'Please, choose',
                   style: TextStyle(
                     height: 2.4,
                   ),
@@ -68,7 +68,7 @@ Future<T?>? pickerType<T>(BuildContext context, List<T> values, T value) {
                   ),
                 ),
                 CupertinoButton(
-                  child: const Text('确定'),
+                  child: const Text('OK'),
                   onPressed: () {
                     Navigator.of(context).pop(value);
                   },

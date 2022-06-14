@@ -4,7 +4,6 @@ import 'dart:typed_data';
 import 'package:buffer_image/buffer_image.dart';
 import 'package:camera/camera.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:file_selector/file_selector.dart';
 import 'package:file_selector_platform_interface/file_selector_platform_interface.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
@@ -12,8 +11,8 @@ import 'package:flutter/material.dart';
 import 'package:zxing_lib/common.dart';
 import 'package:zxing_lib/zxing.dart';
 
-import '../models/image_source.dart';
-import '../models/utils.dart';
+import '../home/models/image_source.dart';
+import '../home/models/utils.dart';
 import '../widgets/cupertino_icon_button.dart';
 
 class BinarizerPage extends StatefulWidget {

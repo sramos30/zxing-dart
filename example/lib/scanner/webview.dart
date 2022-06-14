@@ -27,7 +27,7 @@ class _WebviewPageState extends State<WebviewPage> {
         middle: Text('Webview'),
       ),
       child: WebView(
-        initialUrl: 'https://flutter.cn',
+        initialUrl: 'https://flutter.dev',
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (webview) {
           print(webview);

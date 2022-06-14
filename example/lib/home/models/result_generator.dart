@@ -23,7 +23,7 @@ abstract class ResultGenerator<T extends ParsedResult> {
 }
 
 class TextResultGenerator extends ResultGenerator<TextParsedResult> {
-  const TextResultGenerator() : super('文本', 'text');
+  const TextResultGenerator() : super('Text', 'text');
 
   @override
   String generator(TextParsedResult data) {
@@ -41,7 +41,7 @@ class WifiResultGenerator extends ResultGenerator<WifiParsedResult> {
 }
 
 class GeoResultGenerator extends ResultGenerator<GeoParsedResult> {
-  const GeoResultGenerator() : super('位置', 'geo');
+  const GeoResultGenerator() : super('Location', 'geo');
 
   @override
   String generator(GeoParsedResult data) {
@@ -57,7 +57,7 @@ class GeoResultGenerator extends ResultGenerator<GeoParsedResult> {
 }
 
 class VCardResultGenerator extends ResultGenerator<AddressBookParsedResult> {
-  const VCardResultGenerator() : super('名片', 'vcard');
+  const VCardResultGenerator() : super('Business card', 'vcard');
 
   @override
   String generator(AddressBookParsedResult data) {
@@ -125,7 +125,7 @@ class VCardResultGenerator extends ResultGenerator<AddressBookParsedResult> {
 }
 
 class SMSResultGenerator extends ResultGenerator<SMSParsedResult> {
-  const SMSResultGenerator() : super('短信', 'sms');
+  const SMSResultGenerator() : super('SMS', 'sms');
 
   @override
   String generator(SMSParsedResult data) {

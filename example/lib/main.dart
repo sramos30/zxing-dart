@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoApp(
       title: 'ZXing Demo',
-      theme: CupertinoThemeData(primaryColor: Colors.red),
+      theme: CupertinoThemeData(primaryColor: Colors.blue),
       home: MyHomePage(title: 'ZXing Demo'),
     );
   }

@@ -31,7 +31,7 @@ abstract class QRCodeStyle {
 }
 
 class NormalQRCodeStyle extends QRCodeStyle {
-  const NormalQRCodeStyle() : super('normal', 'Normal');
+  const NormalQRCodeStyle() : super('Normal', 'Normal');
 
   @override
   Future<BufferImage?> blackBlock(int size,
